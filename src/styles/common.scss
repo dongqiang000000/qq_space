@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 400) {
+    html {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 320) {
+    html {
+      font-size: 20px / 375 * 320;
+    }
+  }
+  
